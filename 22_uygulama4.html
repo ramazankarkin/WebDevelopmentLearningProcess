@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hemen Üye Ol</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="üyelik formu">
+    </head>
+    <body>
+        <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+        <hr>
+        <h4>Hesap Bilgileriniz</h4>
+        <form action="Home/register">
+            <p>Kullanıcı Adı: <input type="text" name="ad" placeholder="Kullanıcı adı giriniz." required></p>
+        <p>Eposta: <input type="email" name="eposta" placeholder="e-posta giriniz" required></p>
+        <p>Parola: <input type="password" name="şifre" placeholder="parola giriniz" required></p>
+        <h4>Kişisel Bilgileriniz</h4>
+        <p>Ad: <input type="text"></p>
+        <p>Soyad: <input type="text"></p>
+        <p>Şehir:
+                <select name="sehir" id="">
+                    <option >Seçiniz</option>
+                    <option >Bursa</option>
+                    <option >Afyon</option>
+                    <option >Sivas</option>
+                </select>
+        </p>
+        <p>Cinsiyet: <input type="radio" name="Cinsiyet" >Erkek
+                    <input type="radio" name="Cinsiyet">Kadın    
+        </p>
+        <p>Hobileriniz:
+            <input type="checkbox" name="hobiler">Sinama
+            <input type="checkbox" name="hobiler">Spor
+            <input type="checkbox" name="hobiler">Kitap
+            <input type="checkbox"name="hobiler">Müzik
+
+        </p>
+        <p><input type="submit" value="kaydet">
+            <input type="reset" value="sıfırla">
+        </p>
+        </form>
+
+    </body>
+</html> 
