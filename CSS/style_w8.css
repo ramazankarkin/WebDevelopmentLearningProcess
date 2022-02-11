@@ -1,0 +1,79 @@
+/* Pseudo Element*/
+p::first-line{
+    font-weight: bold;
+    color:brown;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+p.about::first-line{
+    color:green;
+}
+
+p::first-letter{
+    font-size: 48px;
+}
+p::after{
+     content: "-deneme";
+     display: block;
+     background-color: aqua;
+     padding: 10px;
+}
+
+
+/* Pseudo Class*/
+
+ul li{
+     padding: 10px;
+     margin-bottom: 10px;
+     list-style: none;
+}
+
+
+ul li:first-child{
+    background-color: blanchedalmond;
+}
+ul li:nth-of-type(even){
+    border: 2px solid sandybrown;
+}
+ul li:nth-of-type(odd){
+    border: 2px solid darkcyan;
+}
+
+a{
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: rgb(175, 155, 175);
+    background-color: chartreuse;
+}
+a:active{
+    color: rgb(7, 70, 12);
+    background-color: cadetblue;
+}
+
+span{
+    display: none;
+    background-color: yellow;
+    background: rgb(93, 93, 173);
+    padding: 10px;
+}
+
+div:hover span{
+    display: block;
+}
+
+
+

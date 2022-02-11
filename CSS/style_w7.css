@@ -1,0 +1,35 @@
+p[title]{
+    border: 1px solid gray;
+    padding: 10px;
+}
+p[title="second"]{
+    background-color: gold;
+    color: darkblue;
+}
+p[title="third"]{
+    background-color: darkblue;
+    color: yellow;
+}
+p[title ~="forth"]{
+    background-color: bisque;
+}
+a[href ^= "https"]{
+    color: red;
+}
+a[href $= "com"]{
+    color:aqua;
+}
+
+a[href ="http://www.example.com"][target ="blank"]{
+    color: green;
+}
+
+input[type = "text"]{
+    display: block;
+    background-color: blueviolet;
+}
+
+input[type = "button"]{
+    background-color: cornflowerblue;
+    padding: 16px 16px;
+}

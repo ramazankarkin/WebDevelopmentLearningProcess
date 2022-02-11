@@ -1,0 +1,15 @@
+
+a{
+    color: rgb(42, 65, 165);
+    text-decoration: none;
+    border: 2px solid orangered;
+}
+li{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    background-color: bisque;
+}
+
